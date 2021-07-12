@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes zoomInOut {
+    0%, 100% {
+      transform: scale( 1 );
+    }
+  
+    50% {
+      transform: scale( 1.1 );
+    }
+  }
+
+
+
+.fondo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url( '../img/Universe_blue_galaxy_nebula_2017_4K_HD_1366x768.jpg' );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -145;
+    animation: zoomInOut 20s ease infinite;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.envase{
+    max-width: auto;
+    margin: auto;
+}
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    position: absolute;
+    background-color: transparent;
+    right: 0px;
+    left:0px;
+    z-index: 10;
+}
+header .fila{
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img{
+    margin-right: 20px;
+    width: 80px;
+}
+header .nabvar{
+    display: inline-block;
+}
+header .nabvar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .nabvar ul li{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: cyan;
+    margin-right: 15px;
+    display: inline-block;
+    margin-left: 20px;
+}
+header .nabvar ul li i{
+    margin-right: 20px;
+}
+header .nabvar ul li .ham-burger{
+    cursor: pointer;
+}
+header .nabvar ul li #ham-burger{
+    display: block;
+}
+header .nabvar ul li .ham-burger1{
+    cursor: pointer;
+}
+header .nabvar ul li #ham-burger1{
+    display: none;
+}
+
+header .nabvar ul li a{
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+header .nabvar ul li a:hover{
+    color: cyan;
+}
+header .nabvar ul li .activo{
+    color: cyan;
+}
+header #nabvar{
+    width: 300px;
+    background-color: rgba(0, 255, 255, 0.315);
+    display: none;
+}
+header .nabvar1 ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .nabvar1 ul li{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: cyan;
+    margin-right: 12px;
+    display: inline-block;
+    margin-left: 20px;
+}
+header .nabvar1 ul li i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header .nabvar1 ul li a{
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+header .nabvar1 ul li a:hover{
+    color: cyan;
+}
+header .nabvar1 ul li .activo{
+    color: cyan;
+}
+
+.centro{
+    padding-top: 4%;
+}
+.centro .titulo{
+    flex:100%;
+    max-width: 100%;
+}
+.titulo h1{
+    text-align: center;
+}
+.titulo img{
+    width: 300px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px 0px cyan;
+}
+.titulo h1 span{
+    font-size: 110pt;
+    font-weight: bold;
+    position: relative;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.titulo h1 span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(20px);
+}
+.titulo h1 span::after{
+    content: var(--l);
+    position: absolute;
+    top: 80%;
+    left: 0;
+    filter: blur(30px);
+    transform: rotateX(50deg);
+}
+.titulo h1 span:hover{
+    filter: contrast(250%);
+}
+.titulo h1 span:nth-child(1){
+    color: #ff00c3;
+}
+.titulo h1 span:nth-child(2){
+    color: #00c8ff;
+}
+.titulo h1 span:nth-child(3){
+    color: #ff00c3;
+    
+}
+.titulo h1 span:nth-child(4){
+    color: #00c8ff;
+    
+}
+
+
+
+.contactos{
+    position:static;
+    display: block;
+}
+.contactos a .fab{   
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    border: 2px solid #ff00c3;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: cyan;
+    transition: all ease 0.5s;
+    text-decoration: none;
+    color: #ff00c3;
+    font-size: 30px;
+    transition: all ease 0.5s;
+}
+.contactos a .fa-instagram{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.contactos a .fab:hover{
+    color: cyan;
+    background-color: #ff00c3;
+    border: 2px solid cyan;
+}
+
+
+
+.footer .container{
+    background-color: #2c2c2c;
+    flex:100%;
+    max-width: 100%;
+}
+.container p{
+    padding: 5px;
+    text-align: center;
+}
+.container p{
+    font-size: 15px;
+    color: #ffffff;
+}
+.container a{
+    text-decoration: none;
+    color: #ffffff;
+}
