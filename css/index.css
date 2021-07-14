@@ -312,7 +312,7 @@ header .nabvar1 ul li .activo{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(270deg,transparent,cyan);
+    background: linear-gradient(180deg,transparent,cyan);
 }
 .btn-neon:hover #span2{
     top: 100%;
@@ -331,10 +331,10 @@ header .nabvar1 ul li .activo{
 }
 #span4{
     bottom: -100%;
-    right: 0;
+    left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(270deg,transparent,cyan);
+    background: linear-gradient(360deg,transparent,cyan);
 }
 .btn-neon:hover #span4{
     bottom: 100%;
