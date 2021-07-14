@@ -142,9 +142,10 @@ header .nabvar1 ul li span{
 }
 header .nabvar1 ul li i{
     margin-right: 20px;
-    cursor: pointer;
 }
-
+header .nabvar1 ul li .activo{
+    color: cyan;
+}
 header .nabvar1 ul li a{
     font-size: 30px;
     font-weight: 900;
@@ -266,6 +267,7 @@ header .nabvar1 ul li .activo{
 }
 
 
+
 .derecha .boton{
     flex:100%;
     max-width: 100%;
@@ -274,9 +276,9 @@ header .nabvar1 ul li .activo{
     text-align: right;
 }
 .btn-neon{
+    position: relative;
     margin-right: 30px;
     margin-top: 40px;
-    position: relative;
     display: inline-block;
     padding: 15px 30px;
     color: cyan;
