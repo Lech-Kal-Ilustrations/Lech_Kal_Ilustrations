@@ -342,3 +342,83 @@ header .nabvar1 ul li .activo{
     bottom: 100%;
     transition: 1s;
 }
+
+
+.container-grid{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 140px;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 350px;
+    grid-gap: 20px;
+}
+.img{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-1{
+    grid-row-start: span 2;
+}
+.img-4{
+    grid-column-start: span 2;
+}
+.img-6{
+    grid-row-start: span 2;
+}
+.img-8{
+    grid-row-start: span 2;
+}
+.img-9{
+    grid-row-start: span 2;
+}
+.img-11{
+    grid-column-start: span 2;
+}
+.img:hover{
+    filter: grayscale(50%);
+    cursor: pointer;
+    transition: filter .5s;
+}
+.container-img{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease-in;
+}
+.move{
+    transform: translateX(0);
+}
+.img-show{
+    height: 80%;
+    transform: scale(0);
+    display: block;
+    object-fit: cover;
+    transition: transform .2s .4s;
+}
+.show{
+    transform: scale(1);
+}
+.copy{
+    position: fixed;
+    color: #fff;
+    bottom: 30px;
+}
+.fas.fa-times{
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
