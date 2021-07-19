@@ -422,3 +422,64 @@ header .nabvar1 ul li .activo{
     font-size: 40px;
     cursor: pointer;
 }
+
+.redes{
+    margin-top: 150px;
+}
+.redes-contenido{
+    flex: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.redes-contenido .red{
+    text-decoration-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+}
+.redes-contenido .red a{
+    text-decoration: none;
+}
+.redes-contenido .red img{
+    border-radius: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 2px;
+    width: 100px;
+}
+
+.red-contenido{
+    border-radius: 20%;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan;
+    transition: all ease .5s;
+}
+.red-contenido .relleno{
+    box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+    background-color: #2f2f2f49;
+    transition: all ease .5s;
+}
+.red-contenido p{
+    text-decoration-color: transparent;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.red-contenido:hover{
+    background-color: cyan;
+}
+.red-contenido p:hover{
+    color: black;
+}
