@@ -3,6 +3,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
+.hidden {
+    overflow: hidden;
+}
+
+.preload {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+	
+.lds-facebook {   
+    display: inline-block;   
+    position: relative;   
+    width: 80px;   
+    height: 80px; 
+} 
+.lds-facebook div {   
+    display: inline-block;   
+    position: absolute;   
+    left: 8px;   
+    width: 16px;   
+    background: cyan;   
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite; 
+} 
+.lds-facebook div:nth-child(1) {   
+    left: 8px;   
+    animation-delay: -0.24s; 
+} 
+.lds-facebook div:nth-child(2) 
+{   left: 32px;   
+    animation-delay: -0.12s; 
+} 
+.lds-facebook div:nth-child(3) {   
+    left: 56px;   
+    animation-delay: 0; 
+} 
+@keyframes lds-facebook {   
+    0% {     top: 8px;     height: 64px;   }   
+    50%, 100% {     top: 24px;     height: 32px;   } 
+}
+
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -79,7 +122,7 @@ header .nabvar ul{
 }
 header .nabvar ul li{
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
     text-decoration: none;
     color: cyan;
@@ -88,7 +131,7 @@ header .nabvar ul li{
     margin-left: 20px;
 }
 header .nabvar ul li i{
-    margin-right: 20px;
+    margin-right: 5px;
 }
 header .nabvar ul li .ham-burger{
     cursor: pointer;
@@ -104,7 +147,7 @@ header .nabvar ul li #ham-burger1{
 }
 
 header .nabvar ul li a{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 900;
     text-decoration: none;
     color: #ffffff;
@@ -120,44 +163,6 @@ header #nabvar{
     width: 300px;
     background-color: rgba(0, 255, 255, 0.315);
     display: none;
-}
-header .nabvar1 ul{
-    display: block;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-header .nabvar1 ul li{
-    margin-top: 20px;
-    font-size: 30px;
-    font-weight: 900;
-    text-decoration: none;
-    color: cyan;
-    margin-right: 12px;
-    display: inline-block;
-    margin-left: 10px;
-}
-header .nabvar1 ul li span{
-    color: white;
-}
-header .nabvar1 ul li i{
-    margin-right: 20px;
-}
-header .nabvar1 ul li .activo{
-    color: cyan;
-}
-header .nabvar1 ul li a{
-    font-size: 30px;
-    font-weight: 900;
-    text-decoration: none;
-    color: #ffffff;
-    transition: all 0.5s;
-}
-header .nabvar1 ul li a:hover{
-    color: cyan;
-}
-header .nabvar1 ul li .activo{
-    color: cyan;
 }
 
 .centro{
@@ -249,6 +254,19 @@ header .nabvar1 ul li .activo{
 
 
 .footer .container{
+    margin-top: 30px;
+    background-color: #2c2c2c;
+    flex:100%;
+    max-width: 100%;
+}
+.footer .container1{
+    margin-top: 0px;
+    background-color: #2c2c2c;
+    flex:100%;
+    max-width: 100%;
+}
+.footer .container2{
+    margin-top: 1580px;
     background-color: #2c2c2c;
     flex:100%;
     max-width: 100%;
@@ -273,12 +291,12 @@ header .nabvar1 ul li .activo{
     max-width: 100%;
 }
 .boton{
-    text-align: right;
+    text-align: left;
 }
 .btn-neon{
     position: relative;
-    margin-right: 30px;
-    margin-top: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
     display: inline-block;
     padding: 15px 30px;
     color: cyan;
@@ -423,63 +441,90 @@ header .nabvar1 ul li .activo{
     cursor: pointer;
 }
 
-.redes{
-    margin-top: 150px;
+.imga{
+    margin-top: 20px;
+    border: solid 3px cyan;
+    margin-bottom: 20px;
+    width: 300px;
+    transition: all 300ms;
 }
-.redes-contenido{
+.imga:hover{
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+#contenedor{
+    padding: 10px;
+    position: absolute;
+    border: solid 5px cyan;
+    width: 330px;
+    height: 530px;
+    margin:  30px auto;
+    margin-top: 100px;
+    margin-left: 75%;
+    margin-right: 100px;
+    overflow: hidden;
+}
+#contenedor ul{
+    padding: 0;
+    list-style: none;
+    width: 3000px;
+    height: 530px;
+    display: block;
+    animation: slider 15s infinite linear;
+}
+#contenedor ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes slider{
+    0% { margin-top: 0px; }
+    20% { margin-bottom: 0px; }
+
+    25% { margin-top: -700px; }
+    45% { margin-bottom: -700px; }
+
+    50% { margin-top: -1400px; }
+    70% { margin-bottom: -1400px; }
+
+    75% { margin-top: -2000px; }
+    100% { margin-bottom: -2000px; }
+}
+
+.sobre-mi{
+    padding-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.columna{
+    margin: 160px;
+    margin-top: 0px;
+    margin-bottom: 70px;
     flex: 100%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-}
-.redes-contenido .red{
-    text-decoration-color: transparent;
-    text-decoration: none;
-    text-align: center;
-    flex: 0 0 20%;
-    max-width: 20%;
-    position: relative;
-}
-.redes-contenido .red a{
-    text-decoration: none;
-}
-.redes-contenido .red img{
-    border-radius: 100%;
-    padding: 10px;
-    margin-top: 7px;
-    margin-left: 2px;
-    width: 100px;
-}
-
-.red-contenido{
-    border-radius: 20%;
-    margin: 30px;
-    padding: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     background-color: black;
-    box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan;
-    transition: all ease .5s;
+    border-radius: 10%;
+    padding: 40px;
+    box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
 }
-.red-contenido .relleno{
-    box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
-    border-radius: 50%;
-    margin-right: 30px;
-    margin-left: 30px;
-    background-color: #2f2f2f49;
-    transition: all ease .5s;
+.columna .perfil{
+    text-align: center;
+    flex: 100%;
+    max-width: 100%;
+    padding: 20px;
 }
-.red-contenido p{
-    text-decoration-color: transparent;
-    margin-top: 20px;
+.perfil img{
+    box-shadow: 0 0 10px #222122, 0 0 40px #222122, 0 0 80px #222122;
+    width: 350px;
+    border-radius: 10%;
+}
+.perfil p{
+    padding: 20px;
+    font-size: 33.5px;
+    margin: auto;
+    font-family: 'Lobster', cursive;
     color: #ffffff;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.red-contenido:hover{
-    background-color: cyan;
-}
-.red-contenido p:hover{
-    color: black;
+    text-shadow: -2px -2px 1px #000;
 }

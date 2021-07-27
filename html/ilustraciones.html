@@ -16,7 +16,15 @@
 </head>
 
 
-<body>
+<body class="hidden">
+
+    <div class="preload" id="onload">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
     <div class="fondo" id="particles-js"></div>
 
@@ -25,57 +33,27 @@
             <div class="fila">
                 <div class="nabvar">
                     <ul>
-                        <li class="activo">
-                            <div class="ham-burger" id="ham-burger">
-                                <i class="fa fa-bars"></i>Menu 
-                            </div>
-                            <div class="ham-burger1 animate__animated animate__slideInLeft animate__fast 1000ms" id="ham-burger1">
-                                <i class="far fa-times-circle"></i>Menu
-                            </div>
-                        </li>
+                        <li><span><i class="fas fa-home"></i></span><a href="../index.html">Inicio</a></li>
+                        <li><span><i class="far fa-address-card"></i></span><a href="bocetos.html">Sobre Mi</a></li>
+                        <li><span><i class="fas fa-image"></i></span><a class="activo" href="ilustraciones.html">Ilustraciones</a></li>
                     </ul>
                     <br/>
                 </div>
 
                 <div class="contactos">
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-patreon"></i></a>
+                    <a href="https://www.facebook.com/Lech-Kal-Art-311129782781369" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lech_kal_illustrations/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/LechKal" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.patreon.com/Lech_Kal_Art" target="_blank"><i class="fab fa-patreon"></i></a>
                 </div>
             </div>
         </div>
-        <div class="nabvar1 animate__animated animate__slideInLeft animate__fast 1000ms" id="nabvar">
-                <ul>
-                    <li><span><i class="fas fa-home"></i></span><a href="../index.html">Inicio</a></li>
-                    <br />
-                    <br />
-                    <li><span><i class="far fa-address-card"></i></span><a href="sobre-mi.html">Sobre Mi</a></li>
-                    <br />
-                    <br />
-                    <li><span><i class="fas fa-image"></i></span><a class="activo" href="ilustraciones.html">Ilustraciones</a></li>
-                    <br />
-                    <br />
-                    <li><span><i class="far fa-image"></i></span><a href="bocetos.html">Bocetos</a></li>
-                    <br />
-                    <br />
-                    <li><span><i class="fas fa-user-circle"></i></span><a href="redes-sociales.html">Redes Sociales</a></li>
-                    <br />
-                    <br />
-                </ul>
-            <footer class="footer">
-                <div class="container">
-                    <p className="titulo-footer">
-                        &copy; 2021 Todo los Derechos Reservados 
-                        <br> 
-                        <a href="">| Lech_Kal_Illustrations |</a>
-                    </p>
-                </div>
-            </footer>
-        </div>
     </header>
 
-    <div class="centro">
+    <br />
+    <br />
+
+    <div class="centro animate__animated animate__zoomInDown animate__slow 2s">
         <div class="titulo">
             <h1>
                 <span class="parte1" style="--l: 'Ilustraciones';">Ilustraciones</span>
@@ -83,7 +61,9 @@
         </div>
     </div>
 
-    <section class="container-grid">
+    <br />
+
+    <section class="container-grid animate__animated animate__zoomInUp animate__slow 3s">
         <img src="../img/galeria/Jokky.jpg" alt="uno" class="img img-1">
         <img src="../img/galeria/83.jpg" alt="dos" class="img img-2">
         <img src="../img/galeria/62.jpg" alt="tres" class="img img-3">
@@ -102,7 +82,17 @@
             <i class="fas fa-times"></i>
             <p class="copy"></p>
         </div>
+
     </section>
+
+    <footer class="footer">
+        <div class="container container2">
+            <p className="titulo-footer">
+                &copy; 2021 Todo los Derechos Reservados 
+                <a href="">| Lech_Kal_Illustrations |</a>
+            </p>
+        </div>
+    </footer>
 
 </body>
 
@@ -110,5 +100,7 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="../js/app.particulas.js"></script>
     <script src="../js/nabvar.js"></script>
+    <script src="../js/carga.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </html>
