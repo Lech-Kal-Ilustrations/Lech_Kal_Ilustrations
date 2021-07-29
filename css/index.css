@@ -222,7 +222,7 @@ header .nabvar ul li .activo{
 
 header #nabvar{
     width: 300px;
-    background-color: rgba(0, 255, 255, 0.315);
+    background-color: rgba(7, 51, 51, 0.548);
     display: none;
 }
 header .nabvar1 ul{
@@ -823,39 +823,39 @@ header .nabvar1 ul li .activo{
 @media (max-width: 425px) {
     header .nabvar ul li{
         margin-left: 8px;
-        margin-right: 0px;
-        font-size: 25px;
+        margin-right: 5px;
+        font-size: 30px;
     }
     header #nabvar{
-        width: 200px;
+        width: 250px;
     }
     header .nabvar ul li a{
-        font-size: 25px;
+        font-size: 30px;
     }
     header .nabvar1 ul li{
-        font-size: 20px;
+        font-size: 25px;
     }
     header .nabvar1 ul li a{
-        font-size: 20px;
+        font-size: 25px;
     }
     .contactos a .fab{
         padding: 7px;
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 18px;
+        font-size: 25px;
     }
     .contactos a .fa-instagram{
         padding-right: 8px;
         padding-left: 8px;
     }
     .centro{
-        padding-top: 25%;
+        padding-top: 35%;
     }
     .titulo img{
-        width: 200px;
+        width: 250px;
     }
     .titulo h1 span{
-        font-size: 60pt;
+        font-size: 80pt;
     }
     .btn-neon{
         margin-left: 10px;
