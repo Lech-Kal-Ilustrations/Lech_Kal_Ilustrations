@@ -143,6 +143,9 @@ body{
     /*//////////////////////////////*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
+.estilo2{
+    display: none;
+}
 .envase{
     max-width: auto;
     margin: auto;
@@ -213,10 +216,48 @@ header .nabvar ul li a:hover{
 header .nabvar ul li .activo{
     color: cyan;
 }
+
+
+
+
 header #nabvar{
     width: 300px;
     background-color: rgba(0, 255, 255, 0.315);
     display: none;
+}
+header .nabvar1 ul{
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .nabvar1 ul li{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: cyan;
+    margin-right: 12px;
+    display: inline-block;
+    margin-left: 20px;
+}
+header .nabvar1 ul li i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header .nabvar1 ul li a{
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+header .nabvar1 ul li a:hover{
+    color: cyan;
+}
+header .nabvar1 ul li .activo{
+    color: cyan;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -342,19 +383,55 @@ header #nabvar{
     /*//////////////////////////////*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-.footer .container{
+.footer1 .container{
     margin-top: 30px;
     background-color: #2c2c2c;
     flex:100%;
     max-width: 100%;
 }
-.footer .container1{
+.footer1 .container1{
     margin-top: 0px;
     background-color: #2c2c2c;
     flex:100%;
     max-width: 100%;
 }
-.footer .container2{
+.footer1 .container2{
+    margin-top: 1580px;
+    background-color: #2c2c2c;
+    flex:100%;
+    max-width: 100%;
+}
+.container p{
+    padding: 5px;
+    text-align: center;
+}
+.container p{
+    font-size: 15px;
+    color: #ffffff;
+}
+.container a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.footer2 .container{
+    margin-top: 30px;
+    background-color: #2c2c2c;
+    flex:100%;
+    max-width: 100%;
+}
+.footer2 .container1{
+    margin-top: 0px;
+    background-color: #2c2c2c;
+    flex:100%;
+    max-width: 100%;
+}
+.footer2 .container2{
     margin-top: 1580px;
     background-color: #2c2c2c;
     flex:100%;
@@ -681,6 +758,12 @@ header #nabvar{
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 750px) {
+    .estilo1{
+        display: none;
+    }
+    .estilo2{
+        display: block;
+    }
     header .nabvar ul li{
         font-size: 20px;
     }
@@ -741,23 +824,32 @@ header #nabvar{
     header .nabvar ul li{
         margin-left: 8px;
         margin-right: 0px;
-        font-size: 10px;
+        font-size: 25px;
+    }
+    header #nabvar{
+        width: 200px;
     }
     header .nabvar ul li a{
-        font-size: 10px;
+        font-size: 25px;
+    }
+    header .nabvar1 ul li{
+        font-size: 20px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 20px;
     }
     .contactos a .fab{
         padding: 7px;
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 12px;
+        font-size: 18px;
     }
     .contactos a .fa-instagram{
         padding-right: 8px;
         padding-left: 8px;
     }
     .centro{
-        padding-top: 18%;
+        padding-top: 25%;
     }
     .titulo img{
         width: 200px;
@@ -770,8 +862,14 @@ header #nabvar{
         margin-top: 100px;
         font-size: 15px;
     }
+    .boton{
+        text-align: center;
+    }
     .container p{
         font-size: 10px;
+    }
+    .footer1{
+        display: none;
     }
     #contenedor{
         display: none;
