@@ -343,7 +343,6 @@ header .nabvar1 ul li .activo{
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 .centro2{
-    display: none;
     padding-top: 4%;
 }
 .centro2 .titulo2{
@@ -954,12 +953,6 @@ header .nabvar1 ul li .activo{
     }
     .centro2{
         padding-top: 10%;
-    }
-    .centro{
-        display: none;
-    }
-    .centro2{
-        display: block;
     }
     .titulo2 h1 span{
         font-size: 50pt;
