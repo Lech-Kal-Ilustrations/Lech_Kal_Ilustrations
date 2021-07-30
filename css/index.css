@@ -859,7 +859,7 @@ header .nabvar1 ul li .activo{
     }
     .btn-neon{
         margin-left: 10px;
-        margin-top: 120px;
+        margin-top: 140px;
         font-size: 15px;
     }
     .boton{
@@ -867,6 +867,23 @@ header .nabvar1 ul li .activo{
     }
     .container p{
         font-size: 10px;
+    }
+    .sobre-mi{
+        padding-top: 80px;
+    }
+    .columna{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 30px;
+        box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 250px;
+    }
+    .perfil p{
+        padding: 5px;
+        font-size: 20px;
     }
     .footer1{
         display: none;
