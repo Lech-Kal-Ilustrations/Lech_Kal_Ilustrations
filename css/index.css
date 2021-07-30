@@ -879,11 +879,181 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 475px) {
-    
+    header .nabvar ul li{
+        margin-left: 8px;
+        margin-right: 5px;
+        font-size: 30px;
+    }
+    header #nabvar{
+        width: 250px;
+    }
+    header .nabvar ul li a{
+        font-size: 30px;
+    }
+    header .nabvar1 ul li{
+        font-size: 25px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 25px;
+    }
+    .contactos a .fab{
+        padding: 7px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 25px;
+    }
+    .contactos a .fa-instagram{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .centro{
+        padding-top: 35%;
+    }
+    .titulo img{
+        width: 250px;
+    }
+    .titulo h1 span{
+        font-size: 80pt;
+    }
+    .btn-neon{
+        margin-left: 10px;
+        margin-top: 140px;
+        font-size: 15px;
+    }
+    .boton{
+        text-align: center;
+    }
+    .container p{
+        font-size: 10px;
+    }
+    .sobre-mi{
+        padding-top: 80px;
+    }
+    .columna{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 30px;
+        box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 250px;
+    }
+    .perfil p{
+        padding: 5px;
+        font-size: 20px;
+    }
+    .centro2{
+        padding-top: 10%;
+    }
+    .titulo2 h1 span{
+        font-size: 50pt;
+    }
+    .container-grid{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 40px;
+        grid-auto-rows: 120px;
+        grid-gap: 10px;
+    }
+    .img{
+        border-radius: 10px;
+    }
+    .img-show{
+        height: 40%;
+    }
+    .footer1{
+        display: none;
+    }
 }
 
 @media (max-width: 450px) {
-    
+    header .nabvar ul li{
+        margin-left: 8px;
+        margin-right: 5px;
+        font-size: 30px;
+    }
+    header #nabvar{
+        width: 250px;
+    }
+    header .nabvar ul li a{
+        font-size: 30px;
+    }
+    header .nabvar1 ul li{
+        font-size: 25px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 25px;
+    }
+    .contactos a .fab{
+        padding: 7px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 25px;
+    }
+    .contactos a .fa-instagram{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .centro{
+        padding-top: 35%;
+    }
+    .titulo img{
+        width: 250px;
+    }
+    .titulo h1 span{
+        font-size: 80pt;
+    }
+    .btn-neon{
+        margin-left: 10px;
+        margin-top: 140px;
+        font-size: 15px;
+    }
+    .boton{
+        text-align: center;
+    }
+    .container p{
+        font-size: 10px;
+    }
+    .sobre-mi{
+        padding-top: 80px;
+    }
+    .columna{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 30px;
+        box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 250px;
+    }
+    .perfil p{
+        padding: 5px;
+        font-size: 20px;
+    }
+    .centro2{
+        padding-top: 10%;
+    }
+    .titulo2 h1 span{
+        font-size: 50pt;
+    }
+    .container-grid{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 40px;
+        grid-auto-rows: 120px;
+        grid-gap: 10px;
+    }
+    .img{
+        border-radius: 10px;
+    }
+    .img-show{
+        height: 40%;
+    }
+    .footer1{
+        display: none;
+    }
 }
 
 @media (max-width: 425px) {
@@ -973,30 +1143,362 @@ header .nabvar1 ul li .activo{
     .footer1{
         display: none;
     }
-    #contenedor{
-        display: none;
-    }
     
 }
 
 @media (max-width: 400px) {
-    
+    header .nabvar ul li{
+        font-size: 29px;
+    }
+    header #nabvar{
+        width: 245px;
+    }
+    header .nabvar ul li a{
+        font-size: 29px;
+    }
+    header .nabvar1 ul li{
+        font-size: 24px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 24px;
+    }
+    .contactos a .fab{
+        padding: 7px;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 23px;
+    }
+    .contactos a .fa-instagram{
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+    .titulo img{
+        width: 245px;
+    }
+    .titulo h1 span{
+        font-size: 78pt;
+    }
+    .btn-neon{
+        margin-top: 130px;
+    }
+    .columna{
+        padding-left: 4px;
+        padding-right: 4px;
+        margin: 30px;
+        padding: 35px;
+        box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 245px;
+    }
+    .perfil p{
+        padding: 4px;
+        font-size: 19px;
+    }
+    .centro2{
+        padding-top: 10%;
+    }
+    .titulo2 h1 span{
+        font-size: 50pt;
+    }
+    .container-grid{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 40px;
+        grid-auto-rows: 115px;
+        grid-gap: 10px;
+    }
+    .img{
+        border-radius: 10px;
+    }
+    .img-show{
+        height: 40%;
+    }
 }
 
 @media (max-width: 375px) {
-    
+    header .nabvar ul li{
+        font-size: 28px;
+    }
+    header #nabvar{
+        width: 240px;
+    }
+    header .nabvar ul li a{
+        font-size: 28px;
+    }
+    header .nabvar1 ul li{
+        font-size: 23px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 23px;
+    }
+    .contactos a .fab{
+        padding: 7px;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 21px;
+    }
+    .contactos a .fa-instagram{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .titulo img{
+        width: 240px;
+    }
+    .titulo h1 span{
+        font-size: 74pt;
+    }
+    .btn-neon{
+        margin-top: 120px;
+    }
+    .columna{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin: 30px;
+        padding: 30px;
+        box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 240px;
+    }
+    .perfil p{
+        padding: 3px;
+        font-size: 18px;
+    }
+    .centro2{
+        padding-top: 10%;
+    }
+    .titulo2 h1 span{
+        font-size: 45pt;
+    }
+    .container-grid{
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 40px;
+        grid-auto-rows: 110px;
+        grid-gap: 10px;
+    }
+    .img{
+        border-radius: 10px;
+    }
+    .img-show{
+        height: 40%;
+    }
 }
 
 @media (max-width: 350px) {
-    
+    header .nabvar ul li{
+        font-size: 27px;
+    }
+    header #nabvar{
+        width: 235px;
+    }
+    header .nabvar ul li a{
+        font-size: 27px;
+    }
+    header .nabvar1 ul li{
+        font-size: 22px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 22px;
+    }
+    .contactos a .fab{
+        padding: 7px;
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 19px;
+    }
+    .contactos a .fa-instagram{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .titulo img{
+        width: 235px;
+    }
+    .titulo h1 span{
+        font-size: 70pt;
+    }
+    .btn-neon{
+        margin-top: 110px;
+    }
+    .columna{
+        padding-left: 2px;
+        padding-right: 2px;
+        margin: 30px;
+        padding: 20px;
+        box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 235px;
+    }
+    .perfil p{
+        padding: 3px;
+        font-size: 17px;
+    }
+    .centro2{
+        padding-top: 10%;
+    }
+    .titulo2 h1 span{
+        font-size: 45pt;
+    }
+    .container-grid{
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 40px;
+        grid-auto-rows: 105px;
+        grid-gap: 8px;
+    }
+    .img{
+        border-radius: 10px;
+    }
+    .img-show{
+        height: 40%;
+    }
 }
 
 @media (max-width: 325px) {
-    
+    header .nabvar ul li{
+        font-size: 26px;
+    }
+    header #nabvar{
+        width: 230px;
+    }
+    header .nabvar ul li a{
+        font-size: 26px;
+    }
+    header .nabvar1 ul li{
+        font-size: 21px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 21px;
+    }
+    .contactos a .fab{
+        padding: 7px;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 17px;
+    }
+    .contactos a .fa-instagram{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .titulo img{
+        width: 230px;
+    }
+    .titulo h1 span{
+        font-size: 66pt;
+    }
+    .btn-neon{
+        margin-top: 100px;
+    }
+    .columna{
+        padding-left: 1px;
+        padding-right: 1px;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 230px;
+    }
+    .perfil p{
+        padding: 2px;
+        font-size: 16px;
+    }
+    .centro2{
+        padding-top: 10%;
+    }
+    .titulo2 h1 span{
+        font-size: 40pt;
+    }
+    .container-grid{
+        margin-left: 7px;
+        margin-right: 7px;
+        margin-top: 40px;
+        grid-auto-rows: 100px;
+        grid-gap: 7px;
+    }
+    .img{
+        border-radius: 10px;
+    }
+    .img-show{
+        height: 40%;
+    }
 }
 
 @media (max-width: 300px) {
-    
+    header .nabvar ul li{
+        font-size: 25px;
+    }
+    header #nabvar{
+        width: 225px;
+    }
+    header .nabvar ul li a{
+        font-size: 25px;
+    }
+    header .nabvar1 ul li{
+        font-size: 20px;
+    }
+    header .nabvar1 ul li a{
+        font-size: 20px;
+    }
+    .contactos a .fab{
+        padding: 7px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-size: 15px;
+    }
+    .contactos a .fa-instagram{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .titulo img{
+        width: 225px;
+    }
+    .titulo h1 span{
+        font-size: 62pt;
+    }
+    .btn-neon{
+        margin-top: 90px;
+    }
+    .columna{
+        padding-left: 1px;
+        padding-right: 1px;
+        margin: 20px;
+        padding: 5px;
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan;
+        border-radius: 40px;
+    }
+    .perfil img{
+        width: 225px;
+    }
+    .perfil p{
+        padding: 2px;
+        font-size: 15px;
+    }
+    .centro2{
+        padding-top: 10%;
+    }
+    .titulo2 h1 span{
+        font-size: 35pt;
+    }
+    .container-grid{
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 40px;
+        grid-auto-rows: 95px;
+        grid-gap: 6px;
+    }
+    .img{
+        border-radius: 10px;
+    }
+    .img-show{
+        height: 40%;
+    }
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
