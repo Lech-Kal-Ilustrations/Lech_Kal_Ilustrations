@@ -73,6 +73,106 @@
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
     /*//////////////////////////////*/
+              /*RESOLUCION*/ 
+    /*//////////////////////////////*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.resolucion {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.resolucion h2{
+    color: #ffffff;
+}
+
+#noTrespassingOuterBarG{ 	
+    height:19px; 	
+    width:156px; 	
+    border:1px solid rgb(3,3,3); 	
+    overflow:hidden; 	
+    background-color:rgb(240,220,0); 	
+    margin:auto; 
+}  
+
+.noTrespassingBarLineG{ 	
+    background-color:rgb(0,0,0); 	
+    float:left; 	
+    width:14px; 	
+    height:117px; 	
+    margin-right:23px; 	
+    margin-top:-27px; 	
+    transform:rotate(45deg); 		
+    -o-transform:rotate(45deg); 		
+    -ms-transform:rotate(45deg); 		
+    -webkit-transform:rotate(45deg); 		
+    -moz-transform:rotate(45deg); 
+}  
+    
+.noTrespassingAnimationG{ 	
+    width:230px; 	
+    animation-name:noTrespassingAnimationG; 		
+    -o-animation-name:noTrespassingAnimationG; 		
+    -ms-animation-name:noTrespassingAnimationG; 		
+    -webkit-animation-name:noTrespassingAnimationG; 		
+    -moz-animation-name:noTrespassingAnimationG; 	
+    animation-duration:1.5s; 		
+    -o-animation-duration:1.5s; 		
+    -ms-animation-duration:1.5s; 		
+    -webkit-animation-duration:1.5s; 		
+    -moz-animation-duration:1.5s; 	
+    animation-iteration-count:infinite; 		
+    -o-animation-iteration-count:infinite; 		
+    -ms-animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    -o-animation-timing-function:linear;
+    -ms-animation-timing-function:linear;
+    -webkit-animation-timing-function:linear;
+    -moz-animation-timing-function:linear; 		
+}  
+
+@keyframes noTrespassingAnimationG{ 	
+    0%{ 		margin-left:0px; 	}  	
+    100%{ 		margin-left:-37px; 	} 
+} 
+
+@-o-keyframes noTrespassingAnimationG{ 	
+    0%{ 		margin-left:0px; 	}  	
+    100%{ 		margin-left:-37px; 	} 
+} 
+
+@-ms-keyframes noTrespassingAnimationG{ 	
+    0%{ 		margin-left:0px; 	}  	
+    100%{ 		margin-left:-37px; 	} 
+}  
+
+@-webkit-keyframes noTrespassingAnimationG{ 	
+    0%{ 		margin-left:0px; 	}  	
+    100%{ 		margin-left:-37px; 	} 
+}  
+
+@-moz-keyframes noTrespassingAnimationG{ 	
+    0%{ 		margin-left:0px; 	}  	
+    100%{ 		margin-left:-37px; 	} 
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+    /*//////////////////////////////*/
                 /*FONDO*/ 
     /*//////////////////////////////*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -823,6 +923,15 @@ header .nabvar1 ul li .activo{
     /*//////////////////////////////*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
+@media (max-width: 1079px) {
+    .resolucion{
+        display: flex;
+    }
+    header{
+        display: none;
+    }
+}
+
 @media (max-width: 750px) {
     .estilo1{
         display: none;
@@ -879,6 +988,12 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 475px) {
+    .resolucion{
+        display: none;
+    }
+    header{
+        display: block;
+    }
     header .nabvar ul li{
         margin-left: 8px;
         margin-right: 5px;
@@ -1171,7 +1286,7 @@ header .nabvar1 ul li .activo{
     .contactos a .fa-instagram{
         padding-right: 9px;
         padding-left: 9px;
-    }
+    }    
     .titulo img{
         width: 245px;
     }
@@ -1184,8 +1299,8 @@ header .nabvar1 ul li .activo{
     .columna{
         padding-left: 4px;
         padding-right: 4px;
-        margin: 30px;
-        padding: 35px;
+        margin: 10px;
+        padding: 10px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
