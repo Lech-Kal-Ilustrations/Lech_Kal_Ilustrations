@@ -1048,6 +1048,7 @@ header .nabvar1 ul li .activo{
         padding-left: 5px;
         padding-right: 5px;
         margin: 30px;
+        padding: 25px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1137,6 +1138,7 @@ header .nabvar1 ul li .activo{
         padding-left: 5px;
         padding-right: 5px;
         margin: 30px;
+        padding: 25px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1226,6 +1228,7 @@ header .nabvar1 ul li .activo{
         padding-left: 5px;
         padding-right: 5px;
         margin: 30px;
+        padding: 20px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1299,7 +1302,7 @@ header .nabvar1 ul li .activo{
     .columna{
         padding-left: 4px;
         padding-right: 4px;
-        margin: 10px;
+        margin: 20px;
         padding: 10px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
@@ -1370,8 +1373,8 @@ header .nabvar1 ul li .activo{
     .columna{
         padding-left: 3px;
         padding-right: 3px;
-        margin: 30px;
-        padding: 30px;
+        margin: 20px;
+        padding: 10px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1441,8 +1444,8 @@ header .nabvar1 ul li .activo{
     .columna{
         padding-left: 2px;
         padding-right: 2px;
-        margin: 30px;
-        padding: 20px;
+        margin: 15px;
+        padding: 10px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1512,8 +1515,8 @@ header .nabvar1 ul li .activo{
     .columna{
         padding-left: 1px;
         padding-right: 1px;
-        margin: 20px;
-        padding: 10px;
+        margin: 10px;
+        padding: 5px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1583,7 +1586,7 @@ header .nabvar1 ul li .activo{
     .columna{
         padding-left: 1px;
         padding-right: 1px;
-        margin: 20px;
+        margin: 5px;
         padding: 5px;
         box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan;
         border-radius: 40px;
