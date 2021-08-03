@@ -15,3 +15,10 @@ hamBurgern1.addEventListener("click", function(){
     document.getElementById('ham-burger').style.display = 'block';;
     document.getElementById('ham-burger1').style.display = 'none';;
 });
+
+const footer = document.querySelector(".footer2");
+
+footer.addEventListener("click", function(){
+
+    document.getElementById('sello').style.display = 'block';;
+});

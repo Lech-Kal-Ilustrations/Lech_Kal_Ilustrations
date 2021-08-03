@@ -614,6 +614,9 @@ header .nabvar1 ul li .activo{
     /*//////////////////////////////*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
+.footer2{
+    cursor: pointer;
+}
 .footer2 .container{
     margin-top: 30px;
     background-color: #2c2c2c;
@@ -643,6 +646,12 @@ header .nabvar1 ul li .activo{
 .container a{
     text-decoration: none;
     color: #ffffff;
+}
+#sello{
+    display: none;
+}
+#sello1{
+    display: none;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
