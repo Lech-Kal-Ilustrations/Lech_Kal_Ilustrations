@@ -672,11 +672,10 @@ header .nabvar1 ul li .activo{
     max-width: 100%;
 }
 .boton{
-    text-align: left;
+    text-align: center;
 }
 .btn-neon{
     position: relative;
-    margin-left: 30px;
     margin-top: 30px;
     display: inline-block;
     padding: 15px 30px;
@@ -1424,10 +1423,13 @@ header .nabvar1 ul li .activo{
         font-size: 30px;
     }
     header .nabvar1 ul li{
-        font-size: 20px;
+        font-size: 22px;
+    }
+    header .nabvar1 ul li i{
+        margin-right: 10px;
     }
     header .nabvar1 ul li a{
-        font-size: 20px;
+        font-size: 22px;
     }
     .contactos a .fab{
         padding: 7px;
@@ -1449,11 +1451,8 @@ header .nabvar1 ul li .activo{
         font-size: 80pt;
     }
     .btn-neon{
-        margin-top: 0px;
+        margin-top: 15px;
         font-size: 15px;
-    }
-    .boton{
-        text-align: center;
     }
     .container p{
         font-size: 10px;
