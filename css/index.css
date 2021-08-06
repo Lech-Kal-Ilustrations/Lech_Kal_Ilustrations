@@ -137,7 +137,7 @@
     top: 0;
     left: 0;
     background-color: black;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -339,7 +339,7 @@ header .nabvar ul li .activo{
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 header #nabvar{
-    width: 300px;
+    width: 330px;
     background-color: rgba(7, 51, 51, 0.548);
     display: none;
 }
@@ -957,6 +957,222 @@ header .nabvar1 ul li .activo{
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
     /*//////////////////////////////*/
+             /*COMISIONES*/ 
+    /*//////////////////////////////*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.traductor{
+    position: static;
+    margin-top: 150px;
+    max-width: 100%;
+    flex: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.traductor .traducir{
+    background-color: black;
+    margin: 10px;
+    flex: 18%;
+    max-width: 18%;
+    border-radius: 8px;
+    border: 2px solid cyan;
+    box-shadow: 0 2px 2px rgba(1, 148, 148, 0.877);
+    text-align: center;
+    transition: all 0.25s;
+}
+.traductor .traducir:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 20px cyan;
+    background-color: cyan;
+}
+.traductor .traducir p{
+    padding: 20px;
+    max-width: 100%;
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    transition: all 0.25s;
+}
+.traductor .traducir p:hover{
+    color: black;
+}
+.ingles1{
+    display: none;
+}
+.frances1{
+    display: none;
+}
+.italiano1{
+    display: none;
+}
+.traductor .ingles{
+    cursor: pointer;
+}
+.traductor .frances{
+    cursor: pointer;
+}
+.traductor .italiano{
+    cursor: pointer;
+}
+.traductor .español{
+    cursor: pointer;
+}
+.container21{
+    position: static;
+    margin-top: 20px;
+    max-width: 100%;
+    flex: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container21 .card{
+    background-color: black;
+    margin: 20px;
+    flex: 15%;
+    max-width: 15%;
+    border-radius: 8px;
+    border: 2px solid cyan;
+    box-shadow: 0 2px 2px rgba(1, 148, 148, 0.877);
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container21 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 20px cyan;
+}
+
+.container21 .card p{
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container21 .card a {
+    display: none;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.comisiones-img{
+    margin-top: 180px;
+    max-width: 100%;
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.comisiones-img .contenido-img{
+    max-width: 100%;
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contenido-img ul{
+    list-style: none;
+    padding: 0px;
+}
+.contenido-img img{
+    margin: 80px;
+    box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+    display: block;
+    width: 1000px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+    /*//////////////////////////////*/
+            /*REDES SOCIALES*/ 
+    /*//////////////////////////////*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.caja{
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.caja .cartas{
+    background-color: #000000;
+    width: 330px;
+    height: 500px;
+    border-radius: 8px;
+    border: 2px solid cyan;
+    box-shadow: 0 2px 2px rgba(1, 148, 148, 0.877);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.caja .cartas:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 20px cyan;
+}
+
+.caja .cartas img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.caja .cartas h4{
+    color: aqua;
+    font-size: 35px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.caja .cartas p{
+    color: #ffffff;
+    padding: 0 1rem;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.caja .cartas a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+    /*//////////////////////////////*/
               /*RESPONSIVE*/ 
     /*//////////////////////////////*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -968,6 +1184,10 @@ header .nabvar1 ul li .activo{
     .resolucion{
         display: flex;
     }
+    .mantenimiento{
+        display: flex;
+    }
+
 }
 
 @media (max-width: 750px) {
@@ -1001,6 +1221,9 @@ header .nabvar1 ul li .activo{
         display: block;
     }
     .resolucion{
+        display: none;
+    }
+    .mante1{
         display: none;
     }
     header .nabvar ul li{
