@@ -1231,16 +1231,19 @@ header .nabvar1 ul li .activo{
         font-size: 30px;
     }
     header #nabvar{
-        width: 250px;
+        width: 240px;
     }
     header .nabvar ul li a{
         font-size: 30px;
     }
     header .nabvar1 ul li{
-        font-size: 25px;
+        font-size: 22px;
+    }
+    header .nabvar1 ul li i{
+        margin-right: 10px;
     }
     header .nabvar1 ul li a{
-        font-size: 25px;
+        font-size: 22px;
     }
     .contactos a .fab{
         padding: 7px;
@@ -1262,12 +1265,8 @@ header .nabvar1 ul li .activo{
         font-size: 80pt;
     }
     .btn-neon{
-        margin-left: 10px;
-        margin-top: 30px;
+        margin-top: 15px;
         font-size: 15px;
-    }
-    .boton{
-        text-align: center;
     }
     .container p{
         font-size: 10px;
@@ -1279,7 +1278,7 @@ header .nabvar1 ul li .activo{
         padding-left: 5px;
         padding-right: 5px;
         margin: 30px;
-        padding: 25px;
+        padding: 20px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1309,9 +1308,6 @@ header .nabvar1 ul li .activo{
     .img-show{
         height: 40%;
     }
-    .solucion p{
-        font-size: 12px;
-    }
     .footer1{
         display: none;
     }
@@ -1327,16 +1323,19 @@ header .nabvar1 ul li .activo{
         font-size: 30px;
     }
     header #nabvar{
-        width: 250px;
+        width: 240px;
     }
     header .nabvar ul li a{
         font-size: 30px;
     }
     header .nabvar1 ul li{
-        font-size: 25px;
+        font-size: 22px;
+    }
+    header .nabvar1 ul li i{
+        margin-right: 10px;
     }
     header .nabvar1 ul li a{
-        font-size: 25px;
+        font-size: 22px;
     }
     .contactos a .fab{
         padding: 7px;
@@ -1358,12 +1357,8 @@ header .nabvar1 ul li .activo{
         font-size: 80pt;
     }
     .btn-neon{
-        margin-left: 10px;
-        margin-top: 30px;
+        margin-top: 15px;
         font-size: 15px;
-    }
-    .boton{
-        text-align: center;
     }
     .container p{
         font-size: 10px;
@@ -1375,7 +1370,7 @@ header .nabvar1 ul li .activo{
         padding-left: 5px;
         padding-right: 5px;
         margin: 30px;
-        padding: 25px;
+        padding: 20px;
         box-shadow: 0 0 5px cyan, 0 0 20px cyan, 0 0 40px cyan;
         border-radius: 40px;
     }
@@ -1417,7 +1412,7 @@ header .nabvar1 ul li .activo{
         font-size: 30px;
     }
     header #nabvar{
-        width: 250px;
+        width: 240px;
     }
     header .nabvar ul li a{
         font-size: 30px;
@@ -1505,16 +1500,16 @@ header .nabvar1 ul li .activo{
         font-size: 29px;
     }
     header #nabvar{
-        width: 245px;
+        width: 235px;
     }
     header .nabvar ul li a{
         font-size: 29px;
     }
     header .nabvar1 ul li{
-        font-size: 24px;
+        font-size: 21px;
     }
     header .nabvar1 ul li a{
-        font-size: 24px;
+        font-size: 21px;
     }
     .contactos a .fab{
         padding: 7px;
@@ -1533,7 +1528,7 @@ header .nabvar1 ul li .activo{
         font-size: 78pt;
     }
     .btn-neon{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .columna{
         padding-left: 4px;
@@ -1576,16 +1571,16 @@ header .nabvar1 ul li .activo{
         font-size: 28px;
     }
     header #nabvar{
-        width: 240px;
+        width: 230px;
     }
     header .nabvar ul li a{
-        font-size: 28px;
+        font-size: 20px;
     }
     header .nabvar1 ul li{
         font-size: 23px;
     }
     header .nabvar1 ul li a{
-        font-size: 23px;
+        font-size: 20px;
     }
     .contactos a .fab{
         padding: 7px;
@@ -1604,7 +1599,7 @@ header .nabvar1 ul li .activo{
         font-size: 74pt;
     }
     .btn-neon{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .columna{
         padding-left: 3px;
@@ -1650,16 +1645,16 @@ header .nabvar1 ul li .activo{
         font-size: 27px;
     }
     header #nabvar{
-        width: 235px;
+        width: 225px;
     }
     header .nabvar ul li a{
         font-size: 27px;
     }
     header .nabvar1 ul li{
-        font-size: 22px;
+        font-size: 19px;
     }
     header .nabvar1 ul li a{
-        font-size: 22px;
+        font-size: 19px;
     }
     .contactos a .fab{
         padding: 7px;
@@ -1678,7 +1673,7 @@ header .nabvar1 ul li .activo{
         font-size: 70pt;
     }
     .btn-neon{
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .columna{
         padding-left: 2px;
@@ -1727,16 +1722,16 @@ header .nabvar1 ul li .activo{
         font-size: 26px;
     }
     header #nabvar{
-        width: 230px;
+        width: 220px;
     }
     header .nabvar ul li a{
         font-size: 26px;
     }
     header .nabvar1 ul li{
-        font-size: 21px;
+        font-size: 18px;
     }
     header .nabvar1 ul li a{
-        font-size: 21px;
+        font-size: 18px;
     }
     .contactos a .fab{
         padding: 7px;
@@ -1755,7 +1750,8 @@ header .nabvar1 ul li .activo{
         font-size: 66pt;
     }
     .btn-neon{
-        margin-top: 30px;
+        margin-top: 10px;
+        font-size: 14px;
     }
     .columna{
         padding-left: 1px;
@@ -1807,16 +1803,16 @@ header .nabvar1 ul li .activo{
         font-size: 25px;
     }
     header #nabvar{
-        width: 225px;
+        width: 215px;
     }
     header .nabvar ul li a{
         font-size: 25px;
     }
     header .nabvar1 ul li{
-        font-size: 20px;
+        font-size: 17px;
     }
     header .nabvar1 ul li a{
-        font-size: 20px;
+        font-size: 17px;
     }
     .contactos a .fab{
         padding: 7px;
