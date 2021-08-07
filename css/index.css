@@ -1116,7 +1116,6 @@ header .nabvar1 ul li .activo{
     justify-content: center;
     margin: auto;
     margin-top: 120px;
-    margin-bottom: 120px;
 }
 
 .caja .cartas{
@@ -1183,9 +1182,6 @@ header .nabvar1 ul li .activo{
     .resolucion{
         display: flex;
     }
-    .mantenimiento{
-        display: flex;
-    }
 
 }
 
@@ -1220,9 +1216,6 @@ header .nabvar1 ul li .activo{
         display: block;
     }
     .resolucion{
-        display: none;
-    }
-    .mante1{
         display: none;
     }
     header .nabvar ul li{
@@ -1488,6 +1481,22 @@ header .nabvar1 ul li .activo{
     }
     .img-show{
         height: 40%;
+    }
+    .centro-red{
+        padding-top: 20%;
+    }
+    .titulo-red{
+        font-size: 48pt;
+    }
+    .caja{
+        height: 450px;
+        margin-top: 60px;
+    }
+    .caja .cartas{
+        height: 480px;
+    }
+    .caja .cartas p{
+        font-size: 21px;
     }
     .footer1{
         display: none;
