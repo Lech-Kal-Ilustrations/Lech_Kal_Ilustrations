@@ -1140,7 +1140,7 @@ header .nabvar1 ul li .activo{
 }
 
 .caja .cartas img{
-    width: 330px;
+    width: 100%;
     height: 220px;
 }
 
@@ -1533,17 +1533,21 @@ header .nabvar1 ul li .activo{
     }
     
     .container21 .card{
-        margin: 5px;
-        flex: 25%;
-        max-width: 25%;
+        margin: 10px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container21 .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
     }
     .container21 .card p{
         padding: 15px;
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 300;
     }
     .comisiones-img{
-        margin-top: 330px;
+        margin-top: 390px;
     }
     .contenido-img img{
         margin: 20px;
