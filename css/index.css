@@ -1107,6 +1107,9 @@ header .nabvar1 ul li .activo{
     /*//////////////////////////////*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
+.centro-red2{
+    display: none;
+}
 .caja{
     width: 100%;
     max-width: 1200px;
@@ -1216,6 +1219,12 @@ header .nabvar1 ul li .activo{
         display: block;
     }
     .resolucion{
+        display: none;
+    }
+    .centro-red2{
+        display: block;
+    }
+    .centro-red1{
         display: none;
     }
     header .nabvar ul li{
@@ -1482,14 +1491,14 @@ header .nabvar1 ul li .activo{
     .img-show{
         height: 40%;
     }
-    .centro-red{
+    .centro-red2{
         padding-top: 20%;
     }
-    .titulo-red{
-        font-size: 48pt;
+    .titulo-red2 h1 span{
+        font-size: 60pt;
     }
     .caja{
-        height: 450px;
+        height: 480px;
         margin-top: 60px;
     }
     .caja .cartas{
@@ -1498,6 +1507,54 @@ header .nabvar1 ul li .activo{
     .caja .cartas p{
         font-size: 21px;
     }
+    .caja .cartas img{
+        width: 100%;
+    }
+
+
+    .traductor{
+        margin-top: 80px;
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .traductor .traducir{
+        margin: 3px;
+        flex: 20%;
+        max-width: 25%;
+    }
+    .traductor .traducir p{
+        padding: 20px;
+        font-size: 10px;
+    }
+    .container21{
+        margin-top: 25px;
+    }
+    
+    .container21 .card{
+        margin: 5px;
+        flex: 25%;
+        max-width: 25%;
+    }
+    .container21 .card p{
+        padding: 15px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .comisiones-img{
+        margin-top: 330px;
+    }
+    .contenido-img img{
+        margin: 20px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan;
+        width: 350px;
+    }
+    
+
+
     .footer1{
         display: none;
     }
@@ -1573,6 +1630,29 @@ header .nabvar1 ul li .activo{
     .img-show{
         height: 40%;
     }
+    .centro-red2{
+        padding-top: 20%;
+    }
+    .titulo-red2 h1 span{
+        font-size: 58pt;
+    }
+    .caja{
+        height: 470px;
+        margin-top: 60px;
+    }
+    .caja .cartas{
+        height: 470px;
+    }
+    .caja .cartas img{
+        width: 100%;
+        height: 220px;
+    }
+    .caja .cartas h4{
+        font-size: 34px;
+    }
+    .caja .cartas p{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -1646,6 +1726,29 @@ header .nabvar1 ul li .activo{
     }
     .solucion p{
         font-size: 10px;
+    }
+    .centro-red2{
+        padding-top: 20%;
+    }
+    .titulo-red2 h1 span{
+        font-size: 56pt;
+    }
+    .caja{
+        height: 460px;
+        margin-top: 50px;
+    }
+    .caja .cartas{
+        height: 460px;
+    }
+    .caja .cartas img{
+        width: 100%;
+        height: 218px;
+    }
+    .caja .cartas h4{
+        font-size: 33px;
+    }
+    .caja .cartas p{
+        font-size: 19px;
     }
 }
 
@@ -1723,6 +1826,29 @@ header .nabvar1 ul li .activo{
         padding-left: 5px;
         padding-right: 5px;
         color: #ffd000;
+    }
+    .centro-red2{
+        padding-top: 20%;
+    }
+    .titulo-red2 h1 span{
+        font-size: 54pt;
+    }
+    .caja{
+        height: 450px;
+        margin-top: 45px;
+    }
+    .caja .cartas{
+        height: 450px;
+    }
+    .caja .cartas img{
+        width: 100%;
+        height: 210px;
+    }
+    .caja .cartas h4{
+        font-size: 32px;
+    }
+    .caja .cartas p{
+        font-size: 18px;
     }
 }
 
@@ -1805,6 +1931,29 @@ header .nabvar1 ul li .activo{
         padding-right: 0px;
         color: #ffd000;
     }
+    .centro-red2{
+        padding-top: 20%;
+    }
+    .titulo-red2 h1 span{
+        font-size: 52pt;
+    }
+    .caja{
+        height: 440px;
+        margin-top: 40px;
+    }
+    .caja .cartas{
+        height: 440px;
+    }
+    .caja .cartas img{
+        width: 100%;
+        height: 200px;
+    }
+    .caja .cartas h4{
+        font-size: 31px;
+    }
+    .caja .cartas p{
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 300px) {
@@ -1875,6 +2024,29 @@ header .nabvar1 ul li .activo{
     }
     .img-show{
         height: 40%;
+    }
+    .centro-red2{
+        padding-top: 20%;
+    }
+    .titulo-red2 h1 span{
+        font-size: 50pt;
+    }
+    .caja{
+        height: 430px;
+        margin-top: 35px;
+    }
+    .caja .cartas{
+        height: 430px;
+    }
+    .caja .cartas img{
+        width: 100%;
+        height: 180px;
+    }
+    .caja .cartas h4{
+        font-size: 30px;
+    }
+    .caja .cartas p{
+        font-size: 16px;
     }
 }
 
