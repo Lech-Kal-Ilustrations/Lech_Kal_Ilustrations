@@ -1657,6 +1657,54 @@ header .nabvar1 ul li .activo{
     .caja .cartas p{
         font-size: 20px;
     }
+
+
+
+    .traductor{
+        margin-top: 80px;
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .traductor .traducir{
+        margin: 3px;
+        flex: 20%;
+        max-width: 25%;
+    }
+    .traductor .traducir p{
+        padding: 20px;
+        font-size: 10px;
+    }
+    .container21{
+        margin-top: 25px;
+    }
+    
+    .container21 .card{
+        margin: 10px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container21 .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    }
+    .container21 .card p{
+        padding: 15px;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .comisiones-img{
+        margin-top: 390px;
+    }
+    .contenido-img img{
+        margin: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 10px cyan;
+        width: 348px;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -1754,6 +1802,53 @@ header .nabvar1 ul li .activo{
     .caja .cartas p{
         font-size: 19px;
     }
+
+
+
+    .traductor{
+        margin-top: 70px;
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .traductor .traducir{
+        margin: 3px;
+        flex: 20%;
+        max-width: 25%;
+    }
+    .traductor .traducir p{
+        padding: 20px;
+        font-size: 10px;
+    }
+    .container21{
+        margin-top: 25px;
+    }
+    
+    .container21 .card{
+        margin: 10px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container21 .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    }
+    .container21 .card p{
+        padding: 15px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .comisiones-img{
+        margin-top: 390px;
+    }
+    .contenido-img img{
+        margin: 5px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 10px cyan;
+        width: 340px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -1835,7 +1930,7 @@ header .nabvar1 ul li .activo{
         padding-top: 20%;
     }
     .titulo-red2 h1 span{
-        font-size: 54pt;
+        font-size: 53pt;
     }
     .caja{
         height: 450px;
@@ -1853,6 +1948,53 @@ header .nabvar1 ul li .activo{
     }
     .caja .cartas p{
         font-size: 18px;
+    }
+
+
+
+    .traductor{
+        margin-top: 60px;
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .traductor .traducir{
+        margin: 3px;
+        flex: 20%;
+        max-width: 25%;
+    }
+    .traductor .traducir p{
+        padding: 20px;
+        font-size: 8px;
+    }
+    .container21{
+        margin-top: 25px;
+    }
+    
+    .container21 .card{
+        margin: 10px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container21 .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    }
+    .container21 .card p{
+        padding: 15px;
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .comisiones-img{
+        margin-top: 350px;
+    }
+    .contenido-img img{
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 5px cyan, 0 0 5px cyan, 0 0 5px cyan;
+        width: 320px;
     }
 }
 
@@ -1939,7 +2081,7 @@ header .nabvar1 ul li .activo{
         padding-top: 20%;
     }
     .titulo-red2 h1 span{
-        font-size: 52pt;
+        font-size: 50pt;
     }
     .caja{
         height: 440px;
@@ -1957,6 +2099,53 @@ header .nabvar1 ul li .activo{
     }
     .caja .cartas p{
         font-size: 17px;
+    }
+
+
+
+    .traductor{
+        margin-top: 60px;
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .traductor .traducir{
+        margin: 3px;
+        flex: 20%;
+        max-width: 25%;
+    }
+    .traductor .traducir p{
+        padding: 20px;
+        font-size: 7px;
+    }
+    .container21{
+        margin-top: 25px;
+    }
+    
+    .container21 .card{
+        margin: 10px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container21 .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    }
+    .container21 .card p{
+        padding: 15px;
+        font-size: 9px;
+        font-weight: 300;
+    }
+    .comisiones-img{
+        margin-top: 300px;
+    }
+    .contenido-img img{
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 5px cyan, 0 0 5px cyan, 0 0 5px cyan;
+        width: 290px;
     }
 }
 
