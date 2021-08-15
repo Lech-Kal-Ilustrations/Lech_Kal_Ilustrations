@@ -27,42 +27,40 @@
 
 .preload {
     height: 100vh;
-    background-color: #000;
     display: flex;
+    background-color: black;
     justify-content: center;
     align-items: center;
 }
-	
-.lds-facebook {   
-    display: inline-block;   
-    position: relative;   
-    width: 80px;   
-    height: 80px; 
-} 
-.lds-facebook div {   
-    display: inline-block;   
-    position: absolute;   
-    left: 8px;   
-    width: 16px;   
-    background: cyan;   
-    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite; 
-} 
-.lds-facebook div:nth-child(1) {   
-    left: 8px;   
-    animation-delay: -0.24s; 
-} 
-.lds-facebook div:nth-child(2) 
-{   left: 32px;   
-    animation-delay: -0.12s; 
-} 
-.lds-facebook div:nth-child(3) {   
-    left: 56px;   
-    animation-delay: 0; 
-} 
-@keyframes lds-facebook {   
-    0% {     top: 8px;     height: 64px;   }   
-    50%, 100% {     top: 24px;     height: 32px;   } 
+
+.preload .dentro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
+
+.preload .dentro img{
+    width: 550px;
+    border: none;
+}
+
+.preload img{
+    position: absolute;
+    border-radius: 100%;
+    width: 150px;
+    border: 2px solid cyan;
+    animation: zoomInOut 1s ease infinite;
+}
+
+@keyframes zoomInOut {
+    0%, 100% {
+      transform: scale( 1 );
+    }
+  
+    50% {
+      transform: scale( 1.2 );
+    }
+  }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -1215,6 +1213,12 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 475px) {
+    .preload .dentro img{
+        width: 370px;
+    }
+    .preload img{
+        width: 80px;
+    }
     .INICIO{
         display: block;
     }
@@ -1310,12 +1314,85 @@ header .nabvar1 ul li .activo{
     .img-show{
         height: 40%;
     }
+
+    .centro-red2{
+        padding-top: 20%;
+    }
+    .titulo-red2 h1 span{
+        font-size: 60pt;
+    }
+    .caja{
+        height: 480px;
+        margin-top: 60px;
+    }
+    .caja .cartas{
+        height: 480px;
+    }
+    .caja .cartas p{
+        font-size: 21px;
+    }
+    .caja .cartas img{
+        width: 100%;
+    }
+
+
+    .traductor{
+        margin-top: 80px;
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .traductor .traducir{
+        margin: 3px;
+        flex: 20%;
+        max-width: 25%;
+    }
+    .traductor .traducir p{
+        padding: 20px;
+        font-size: 10px;
+    }
+    .container21{
+        margin-top: 25px;
+    }
+    
+    .container21 .card{
+        margin: 10px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container21 .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    }
+    .container21 .card p{
+        padding: 15px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .comisiones-img{
+        margin-top: 390px;
+    }
+    .contenido-img img{
+        margin: 20px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan;
+        width: 370px;
+    }
+
     .footer1{
         display: none;
     }
 }
 
 @media (max-width: 450px) {
+    .preload .dentro img{
+        width: 350px;
+    }
+    .preload img{
+        width: 75px;
+    }
     .resolucion{
         display: none;
     }
@@ -1402,12 +1479,85 @@ header .nabvar1 ul li .activo{
     .img-show{
         height: 40%;
     }
+
+    .centro-red2{
+        padding-top: 20%;
+    }
+    .titulo-red2 h1 span{
+        font-size: 60pt;
+    }
+    .caja{
+        height: 480px;
+        margin-top: 60px;
+    }
+    .caja .cartas{
+        height: 480px;
+    }
+    .caja .cartas p{
+        font-size: 21px;
+    }
+    .caja .cartas img{
+        width: 100%;
+    }
+
+
+    .traductor{
+        margin-top: 80px;
+        max-width: 100%;
+        flex: 100%;
+        width: 100%;
+        height: 60px;
+    }
+    .traductor .traducir{
+        margin: 3px;
+        flex: 20%;
+        max-width: 25%;
+    }
+    .traductor .traducir p{
+        padding: 20px;
+        font-size: 10px;
+    }
+    .container21{
+        margin-top: 25px;
+    }
+    
+    .container21 .card{
+        margin: 10px;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container21 .card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan;
+    }
+    .container21 .card p{
+        padding: 15px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .comisiones-img{
+        margin-top: 390px;
+    }
+    .contenido-img img{
+        margin: 20px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan;
+        width: 370px;
+    }
+
     .footer1{
         display: none;
     }
 }
 
 @media (max-width: 425px) {
+    .preload .dentro img{
+        width: 330px;
+    }
+    .preload img{
+        width: 70px;
+    }
     header .nabvar ul li{
         margin-left: 8px;
         margin-right: 5px;
@@ -1566,6 +1716,12 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 400px) {
+    .preload .dentro img{
+        width: 310px;
+    }
+    .preload img{
+        width: 65px;
+    }
     header .nabvar ul li{
         font-size: 29px;
     }
@@ -1708,6 +1864,12 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 375px) {
+    .preload .dentro img{
+        width: 290px;
+    }
+    .preload img{
+        width: 60px;
+    }
     header .nabvar ul li{
         font-size: 28px;
     }
@@ -1852,6 +2014,12 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 350px) {
+    .preload .dentro img{
+        width: 260px;
+    }
+    .preload img{
+        width: 55px;
+    }
     header .nabvar ul li{
         font-size: 27px;
     }
@@ -1999,6 +2167,12 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 325px) {
+    .preload .dentro img{
+        width: 240px;
+    }
+    .preload img{
+        width: 50px;
+    }
     header .nabvar ul li{
         font-size: 26px;
     }
@@ -2150,6 +2324,12 @@ header .nabvar1 ul li .activo{
 }
 
 @media (max-width: 300px) {
+    .preload .dentro img{
+        width: 220px;
+    }
+    .preload img{
+        width: 45px;
+    }
     header .nabvar ul li{
         font-size: 25px;
     }
