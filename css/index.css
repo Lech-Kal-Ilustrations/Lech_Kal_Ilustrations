@@ -875,7 +875,7 @@ header .nabvar1 ul li .activo{
     width: 3000px;
     height: 530px;
     display: block;
-    animation: slider 15s infinite linear;
+    animation: slider 25s infinite linear;
 }
 #contenedor ul:hover{
     animation-play-state: paused;
