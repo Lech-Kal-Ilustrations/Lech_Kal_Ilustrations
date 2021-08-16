@@ -391,6 +391,7 @@ header .nabvar1 ul li .activo{
 
 .centro{
     padding-top: 4%;
+    padding-bottom: 10%;
 }
 .centro .titulo{
     flex:100%;
@@ -820,13 +821,17 @@ header .nabvar1 ul li .activo{
 .copy{
     position: fixed;
     color: #fff;
-    bottom: 30px;
+    bottom: 15px;
+    font-size: 110pt;
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
 }
 .fas.fa-times{
     position: absolute;
     color: #fff;
-    top: 20px;
-    right: 20px;
+    top: 92%;
+    right: 49%;
     font-size: 40px;
     cursor: pointer;
 }
